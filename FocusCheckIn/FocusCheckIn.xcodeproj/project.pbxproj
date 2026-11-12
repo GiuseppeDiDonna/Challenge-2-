@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110000000000000000000001 /* FocusCheckInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120000000000000000000001; };
+		110000000000000000000002 /* FocusCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120000000000000000000002; };
+		110000000000000000000003 /* FocusEnergy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120000000000000000000003; };
+		110000000000000000000004 /* DurationEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120000000000000000000004; };
+		110000000000000000000005 /* FocusDurationClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 120000000000000000000005; };
+		110000000000000000000006 /* FocusCheckInUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120000000000000000000007; };
+		110000000000000000000007 /* SessionFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120000000000000000000009; };
+		110000000000000000000008 /* FocusSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12000000000000000000000A; };
+		110000000000000000000009 /* SleepObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12000000000000000000000B; };
+		11000000000000000000000A /* SleepReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12000000000000000000000C; };
+		11000000000000000000000B /* Personalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12000000000000000000000D; };
+		11000000000000000000000C /* FocusHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12000000000000000000000E; };
+		11000000000000000000000D /* FocusSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12000000000000000000000F; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		190000000000000000000001 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150000000000000000000002;
+			proxyType = 1;
+			remoteGlobalIDString = 150000000000000000000001;
+			remoteInfo = FocusCheckIn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		120000000000000000000001 /* FocusCheckInApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCheckInApp.swift; sourceTree = "<group>"; };
+		120000000000000000000002 /* FocusCheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCheckInView.swift; sourceTree = "<group>"; };
+		120000000000000000000003 /* FocusEnergy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusEnergy.swift; sourceTree = "<group>"; };
+		120000000000000000000004 /* DurationEstimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationEstimate.swift; sourceTree = "<group>"; };
+		120000000000000000000005 /* FocusDurationClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FocusDurationClassifier.mlmodel; sourceTree = "<group>"; };
+		120000000000000000000006 /* FocusCheckIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = FocusCheckIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		120000000000000000000007 /* FocusCheckInUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCheckInUITests.swift; sourceTree = "<group>"; };
+		120000000000000000000008 /* FocusCheckInUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FocusCheckInUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		120000000000000000000009 /* SessionFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionFeedback.swift; sourceTree = "<group>"; };
+		12000000000000000000000A /* FocusSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSession.swift; sourceTree = "<group>"; };
+		12000000000000000000000B /* SleepObservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepObservation.swift; sourceTree = "<group>"; };
+		12000000000000000000000C /* SleepReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepReader.swift; sourceTree = "<group>"; };
+		12000000000000000000000D /* Personalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personalization.swift; sourceTree = "<group>"; };
+		12000000000000000000000E /* FocusHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusHistory.swift; sourceTree = "<group>"; };
+		12000000000000000000000F /* FocusSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSessionView.swift; sourceTree = "<group>"; };
+		120000000000000000000010 /* FocusCheckIn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FocusCheckIn.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		130000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140000000000000000000001 = {
+			isa = PBXGroup;
+			children = (140000000000000000000002, 140000000000000000000004, 140000000000000000000003);
+			sourceTree = "<group>";
+		};
+		140000000000000000000002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				120000000000000000000001,
+				120000000000000000000002,
+				120000000000000000000003,
+				120000000000000000000004,
+				120000000000000000000005,
+				120000000000000000000009,
+				12000000000000000000000A,
+				12000000000000000000000B,
+				12000000000000000000000C,
+				12000000000000000000000D,
+				12000000000000000000000E,
+				12000000000000000000000F,
+				120000000000000000000010,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		140000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (120000000000000000000006, 120000000000000000000008);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		140000000000000000000004 /* UITests */ = {
+			isa = PBXGroup;
+			children = (120000000000000000000007);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		150000000000000000000001 /* FocusCheckIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180000000000000000000002;
+			buildPhases = (160000000000000000000001, 130000000000000000000001, 160000000000000000000002);
+			buildRules = ();
+			dependencies = ();
+			name = FocusCheckIn;
+			productName = FocusCheckIn;
+			productReference = 120000000000000000000006;
+			productType = "com.apple.product-type.application";
+		};
+		150000000000000000000003 /* FocusCheckInUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180000000000000000000003;
+			buildPhases = (160000000000000000000003);
+			buildRules = ();
+			dependencies = (190000000000000000000002);
+			name = FocusCheckInUITests;
+			productName = FocusCheckInUITests;
+			productReference = 120000000000000000000008;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150000000000000000000002 /* Project */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2720;
+				TargetAttributes = {
+					150000000000000000000001 = {
+						SystemCapabilities = {
+							com.apple.HealthKit = {enabled = 1; };
+						};
+					};
+				};
+			};
+			buildConfigurationList = 180000000000000000000001;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = it;
+			hasScannedForEncodings = 0;
+			knownRegions = (it, Base);
+			mainGroup = 140000000000000000000001;
+			productRefGroup = 140000000000000000000003;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (150000000000000000000001, 150000000000000000000003);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		160000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		160000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110000000000000000000001,
+				110000000000000000000002,
+				110000000000000000000003,
+				110000000000000000000004,
+				110000000000000000000005,
+				110000000000000000000007,
+				110000000000000000000008,
+				110000000000000000000009,
+				11000000000000000000000A,
+				11000000000000000000000B,
+				11000000000000000000000C,
+				11000000000000000000000D,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160000000000000000000003 /* UI Test Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (110000000000000000000006); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		190000000000000000000002 = {isa = PBXTargetDependency; target = 150000000000000000000001; targetProxy = 190000000000000000000001; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		170000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		170000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		170000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COREML_CODEGEN_LANGUAGE = Swift;
+				CODE_SIGN_ENTITLEMENTS = App/FocusCheckIn.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Focus Check-in";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Focus Check-in legge la durata del sonno per adattare sul dispositivo le stime delle tue sessioni.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = it.giuseppedidonna.focuscheckin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		170000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COREML_CODEGEN_LANGUAGE = Swift;
+				CODE_SIGN_ENTITLEMENTS = App/FocusCheckIn.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Focus Check-in";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Focus Check-in legge la durata del sonno per adattare sul dispositivo le stime delle tue sessioni.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = it.giuseppedidonna.focuscheckin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		170000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = it.giuseppedidonna.focuscheckin.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = FocusCheckIn;
+			};
+			name = Debug;
+		};
+		170000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = it.giuseppedidonna.focuscheckin.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = FocusCheckIn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (170000000000000000000001, 170000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		180000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (170000000000000000000003, 170000000000000000000004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		180000000000000000000003 = {isa = XCConfigurationList; buildConfigurations = (170000000000000000000005, 170000000000000000000006); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 150000000000000000000002;
+}
